@@ -6,12 +6,18 @@ A Chrome extension built with Next.js and Tailwind that lets you:
 - Save highlights locally in the browser.
 - Open a popup to view, delete, and summarize saved highlights.
 
+## Demo Video
+
+Watch the project in action:
+
+**[▶ Watch Demo on Google Drive](https://drive.google.com/file/d/1--Tf2TEPQxwz4Ma6j4IZLjh_MegT9da6/view?usp=drive_link)**
+
 ## How it works
 
 - The content script detects highlighted text and shows a small floating action.
 - Saving stores entries in Chrome local storage.
 - The popup reads the saved highlights and shows them in a scrollable list.
-- The optional AI summary uses your own OpenAI API key directly from the popup.
+- The optional AI summary uses your own Gemini or OpenAI API key (stored locally in the browser).
 
 ## Frontend vs backend
 
@@ -34,10 +40,15 @@ If you later want to hide your API key or add user accounts, a small backend wou
 ## Usage
 
 1. Visit any website and select text with your mouse.
-2. Click **Save Highlight?** in the floating popup near your selection.
+2. Click **Save Highlight** in the floating popup near your selection.
 3. Click the extension icon in the toolbar to view, delete, or summarize saved highlights.
-4. Optionally paste an OpenAI API key in the popup to enable **Summarize** (stored locally in your browser).
+4. Optionally paste a Gemini or OpenAI API key in the popup to enable **Summarize**.
 
 ## Preview
 
 - `bun run dev --port 3001`
+
+## Links
+
+- **GitHub:** [github.com/vibhor121/cactro050726](https://github.com/vibhor121/cactro050726)
+- **Demo:** [Google Drive Video](https://drive.google.com/file/d/1--Tf2TEPQxwz4Ma6j4IZLjh_MegT9da6/view?usp=drive_link)
