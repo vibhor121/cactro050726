@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Highlight Saver icon">
+  <rect width="128" height="128" rx="28" fill="#020617" />
+  <path d="M34 88V38c0-6.6 5.4-12 12-12h36c6.6 0 12 5.4 12 12v50l-18-12-18 12Z" fill="#22d3ee" />
+  <path d="M46 34h36" stroke="#f8fafc" stroke-width="6" stroke-linecap="round" />
+  <path d="M46 50h28" stroke="#f8fafc" stroke-width="6" stroke-linecap="round" />
+</svg>
